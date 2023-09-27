@@ -1,0 +1,119 @@
+.store {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f1e6;
+  font-family: Arial, sans-serif;
+}
+
+.store h1 {
+  font-size: 32px;
+  color: #4d3319;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 18px;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #8c6239;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-details h2 {
+  font-size: 20px;
+  color: #4d3319;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.author {
+  font-style: italic;
+  color: #8c6239;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #8c6239;
+  margin: 5px 0;
+}
+
+.add-to-cart {
+  background-color: #8c6239;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #4d3319;
+}
+
+.cart {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cart h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #4d3319;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-items li {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.cart-items button {
+  background-color: #8c6239;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-items button:hover {
+  background-color: #4d3319;
+}

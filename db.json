@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Тринадцатилетняя женщина.",
+      "author": "Оноре де Бальзак.",
+      "image": "https://avatars.mds.yandex.net/get-mpic/3985831/img_id3595086991986613261.jpeg/orig",
+      "price": 255
+    },
+    {
+      "id": 2,
+      "title": "Блеск и нищета куртизанок",
+      "author": "Оноре де Бальзак.",
+      "image": "https://avatars.mds.yandex.net/get-mpic/4866352/img_id37491736217242629.jpeg/orig",
+      "price": 235
+    },
+    {
+      "id": 3,
+      "title": "Приключения и путешествия барона Мюнхгаузена",
+      "author": "Распе Р. Э, Бюргер Г. А.",
+      "image": "https://avatars.mds.yandex.net/get-mpic/7650126/img_id6439576830041610889.jpeg/orig",
+      "price": 300
+    }
+  ]
+}
